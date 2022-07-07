@@ -1,0 +1,264 @@
+/* Base Styles Start */
+
+/* Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Nunito+Sans:wght@300;400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.section-spacing {
+  padding-top: 80px;
+}
+
+.section-top {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.section-top h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.section-top p {
+  color: #707070;
+  padding-top: 10px;
+}
+
+/* Base Styles End */
+
+/* Hero Section CSS Start */
+
+.hero-wrapper {
+  background: linear-gradient(#00000033, #000000f6), url(../images/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  padding: 300px 0;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.hero-content p {
+  color: #ffffff;
+  padding: 0 100px;
+}
+
+.donate-btn {
+  padding-top: 30px;
+}
+
+.donate-btn a {
+  background: #ff5959;
+  color: #ffffff;
+  padding: 12px 22px;
+  border-radius: 5px;
+}
+
+/* Hero Section CSS End */
+
+/* Donate Today Section CSS Start */
+
+.donate-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding: 0 100px;
+}
+
+.donate-item span {
+  font-size: 40px;
+  font-weight: 700;
+  background: #fafafa;
+  color: #707070;
+  padding: 35px 15px;
+  border-radius: 5px;
+}
+
+.donate-item.active span {
+  background: #ffeeee;
+  color: #ff5959;
+  border: 2px solid #ff5959;
+}
+
+.donate-form {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.donate-form input {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #dadada;
+  padding: 10px 0;
+}
+
+::placeholder {
+  font-size: 16px;
+  color: #b3b3b3;
+}
+
+/* Donate Today Section CSS End */
+
+/* Donate Plan Section CSS Start */
+
+.donate-plan {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.donate-plan-card {
+  max-width: 30%;
+  background: red;
+  padding: 50px 20px;
+  border-radius: 5px;
+}
+
+.donate-plan-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #121212;
+  padding: 20px 0;
+}
+
+.food {
+  background: #4f9da61a;
+}
+.shelter {
+  background: #ff59591a;
+}
+.education {
+  background: #fff4d6;
+}
+
+/* Donate Plan Section CSS End */
+
+/* Volunteer Section CSS Start */
+
+.volunteer-content {
+  background: #ff5959;
+  padding: 60px 0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.volunteer-content h2 {
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.volunteer-content input {
+  padding: 15px 30px;
+  border: none;
+  outline: 0;
+  background: #fff4d6;
+}
+
+.volunteer-btn {
+  background: #ffffff !important;
+  cursor: pointer;
+}
+
+/* Volunteer Section CSS End */
+
+/* Updates Section CSS Start */
+
+.subscribe {
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 80px;
+  background: #fff4d6;
+  padding: 80px;
+  border-radius: 5px;
+}
+
+.input-group {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.subs-email {
+  width: 75%;
+  background: #aa9f9f80;
+  border: none;
+  outline: 0;
+  padding: 20px;
+  border-radius: 5px 0 0 5px;
+}
+
+.subs-btn {
+  width: 25%;
+  border: 0;
+  outline: 0;
+  background: #ff5959;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+/* Updates Section CSS End */
+
+/* Footer Section CSS Start */
+
+.footer-content {
+  background: #0b0d17;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.footer-content h2 {
+  font-size: 45px;
+  font-family: "Lobster", cursive;
+  color: #ff5959;
+}
+
+.footer-content p {
+  color: #fff;
+  padding-top: 10px;
+}
+
+/* Footer Section CSS End */
